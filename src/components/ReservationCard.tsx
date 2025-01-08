@@ -9,10 +9,14 @@ const ReservationCard = () => {
     const [date,setDate] = useState<Date>()
 
     return ( 
-        <Dialog>
-            <DialogTrigger className="bg-[#493628] text-white text-xl px-5 py-1 mt-5 hover:outline-none border-none hover:border-none hover:bg-opacity-95">Reserve</DialogTrigger>
-            <DialogContent className="w-[600px] h-[600px]">
-                <DialogHeader className="flex w-full items-center">
+        <Dialog> 
+            <DialogTrigger 
+            // className="bg-[#493628] text-white text-xl px-5 py-1 mt-5 hover:outline-none border-none hover:border-none hover:bg-opacity-95"
+                className="bg-[#493628] text-white text-md px-5 py-1 hover:outline-none border-none hover:border-none hover:bg-opacity-95"
+            
+            >Reserve</DialogTrigger>
+            <DialogContent className="w-[100%]">
+                <DialogHeader className="flex w-[100%] items-center">
                     <DialogTitle className="text-2xl mb-5">Choose a day</DialogTitle>
                     <Calendar
                         mode="single"
@@ -25,7 +29,10 @@ const ReservationCard = () => {
                         <input className="bg-white border w-[230px] text-lg rounded-sm border-black p-1" type="text" placeholder="Name"/>
                         <input className="bg-white border w-[230px] text-lg rounded-sm border-black p-1" type="number" placeholder="Number of people"/>
                     </div>
-                    <Button className="bg-[#493628] text-xl w-[120px]">Reserve</Button>
+                    <Button
+                    // className="bg-[#493628] text-xl w-[120px]"
+                        className="bg-[#493628] mt-2 text-md"
+                    >Reserve</Button>
                 </DialogDescription>
             </DialogContent>
         </Dialog>

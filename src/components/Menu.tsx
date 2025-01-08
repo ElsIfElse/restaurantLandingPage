@@ -4,9 +4,13 @@ import MenuSection from "./MenuSection";
 const Menu = () => {
     return ( 
         
-        <div id="menu" className="flex flex-col items-center w-full mb-[100px]">
+        <div id="menu" 
+        /* className="flex flex-col items-center w-full mb-[100px]" */
+        className="flex flex-col justify-center items-center w-full"
+        
+        >
             
-            <SmallHero marginTop="0" marginBottom="0" text=" - Menu - "/>
+            <SmallHero text=" - Menu - "/>
             <MenuSection 
             typeName="Soups"
 

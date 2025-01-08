@@ -15,7 +15,7 @@ const LandingPage = () => {
         <div className="max-w-screen w-screen h-screen flex flex-col items-center py-5">
             <Hero/>
             <Navbar/>          
-            <SmallHero marginBottom="6" marginTop="10" text={'- Choose a reastaurant -'}/>
+            <SmallHero text={'- Choose a reastaurant -'}/>
             <RestaurantsSection/>
             <Introduction/>
             <Menu/>

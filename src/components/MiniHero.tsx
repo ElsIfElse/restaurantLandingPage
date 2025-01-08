@@ -4,7 +4,10 @@ interface MiniHeroProps{
 
 const MiniHero:React.FC<MiniHeroProps> = ({text}) => {
     return ( 
-        <h3 className="font-semibold text-2xl">{`/ ${text} /`}</h3>
+        <h3 
+        // className="font-semibold text-2xl"
+            className="font-semibold text-xl"
+        >{`/ ${text} /`}</h3>
      );
 }
  

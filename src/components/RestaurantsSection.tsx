@@ -25,13 +25,14 @@ const RestaurantsSection = () => {
         initial={{opacity:0}}
         animate={{opacity:1}}
         transition={{duration:0.4,delay:0.2}}
+        className="w-[100%]"
         >
             <Carousel id="restaurants">
                 <CarouselContent>
                   <CarouselItem>
-                  <Card className="bg-transparent border-none ">
+                  <Card className="bg-transparent border-none">
                         <CardHeader>
-                          <CardTitle className="">New York</CardTitle>
+                          <CardTitle className="text-xl bold">New York</CardTitle>
                           <CardDescription>A vibrant New York restaurant featuring contemporary American cuisine with global flavors and a stylish atmosphere.</CardDescription>
                         </CardHeader>
                         <CardContent className="flex flex-row justify-center w-full h-full">
@@ -42,7 +43,7 @@ const RestaurantsSection = () => {
                   <CarouselItem>
                     <Card className="bg-transparent border-none h-full w-full">
                         <CardHeader>
-                          <CardTitle className="">Oregon</CardTitle>
+                          <CardTitle className="text-xl bold">Oregon</CardTitle>
                           <CardDescription>A cozy Oregon restaurant showcasing fresh, local ingredients with a creative twist on Pacific Northwest cuisine in a relaxed, rustic setting.</CardDescription>
                         </CardHeader>
                         <CardContent className="flex flex-row justify-center w-full h-full">
@@ -53,7 +54,7 @@ const RestaurantsSection = () => {
                   <CarouselItem>
                   <Card className="bg-transparent border-none h-full w-full">
                         <CardHeader>
-                          <CardTitle className="">Atlanta</CardTitle>
+                          <CardTitle className="text-xl bold">Atlanta</CardTitle>
                           <CardDescription>A trendy Atlanta restaurant serving Southern-inspired dishes with a modern flair, set in a lively and welcoming atmosphere.</CardDescription>
                         </CardHeader>
                         <CardContent className="flex flex-row justify-center w-full h-full">

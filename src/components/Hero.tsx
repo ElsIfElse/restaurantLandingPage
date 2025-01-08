@@ -5,9 +5,13 @@ const Hero = () => {
         <motion.div
         initial={{opacity:0}}
         animate={{opacity:1}}
-        className="flex flex-col items-center">
-            <h1 className=" text-5xl tracking-widest mb-7 font-Charm "> [Dine at Mine]</h1>
-            <span className="text-sm filter contrast-200 saturate-150 -translate-y-[70px] translate-x-[220px]">⭐⭐⭐⭐⭐</span>
+        /* className="flex flex-col items-center" */
+            className='flex flex-col items-center mb-4'
+        >
+            <h1 /* className=" text-5xl tracking-widest mb-7 font-Charm " */
+            className='text-4xl'
+            > [Dine at Mine]</h1>
+            <span className="text-sm filter contrast-200 saturate-150">⭐⭐⭐⭐⭐</span>
         </motion.div>
      );
 }

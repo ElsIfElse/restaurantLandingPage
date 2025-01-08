@@ -50,11 +50,21 @@ const MenuSection:React.FC<DishTypeProp> = ({
     item4Price
 }) => {
     return ( 
-        <div className="flex flex-col items-center w-[1920px] mt-5">
-            <div className="flex flex-row justify-start w-full ml-7">
+        <div 
+        /* className="flex flex-col items-center w-[1920px] mt-5" */
+            className="flex flex-col items-center justify-center w-[100%] mt-5"
+
+        >
+            <div 
+            /* className="flex flex-row justify-start w-full ml-7" */
+                className="flex flex-col items-center justify-center w-[100%]"
+            >
                 <MiniHero text={typeName}/>
             </div>
-            <div className="flex flex-row justify-between w-[1920px] mt-5">
+            <div 
+            /* className="flex flex-row justify-between w-[1920px] mt-5" */
+                className="flex flex-col items-center justify-center w-[100%] mt-5"
+            >
                 <MealCards dishName={item1Title} dishDescription={item1Description} dishPhoto={item1Photo} dishPrice={`-${item1Price}`}/>
                 <MealCards dishName={item2Title} dishDescription={item2Description} dishPhoto={item2Photo} dishPrice={`-${item2Price}`}/>
                 <MealCards dishName={item3Title} dishDescription={item3Description} dishPhoto={item3Photo} dishPrice={`-${item3Price}`}/>
