@@ -11,8 +11,8 @@ const Navbar = () => {
       transition={{duration:0.4,delay:0.2}}
       /*className="sticky top-0 z-20 flex flex-col items-center w-screen bg-[#493628] border-2 border-black"*/
       className="
-      sticky top-0 z-20 flex flex-col items-center w-[100%] bg-[#493628] border-y border-black
-      lg:w-screen lg:border-y-2
+      sticky top-0 z-20 flex flex-col items-center w-[100%] bg-[#493628] border-y border-black mb-8
+      lg:w-screen lg:border-y-2 
       ">
         <Hr opa="100"/>
         <div /* className="flex-row flex px-5 py-3 justify-center w-[1920px] max-w-[1920px]" */

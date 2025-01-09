@@ -8,7 +8,7 @@ const Hero = () => {
         /* className="flex flex-col items-center" */
             className='
             flex flex-col items-center mb-4
-            lg:flex-col lg:mb-4 lg:mt-2
+            lg:flex-col lg:mb-0 lg:mt-2
             '
         >
             <h1 /* className=" text-5xl tracking-widest mb-7 font-Charm " */
@@ -19,7 +19,7 @@ const Hero = () => {
             > [Dine at Mine]</h1>
             <span className="
             text-sm filter contrast-200 saturate-150
-            lg:translate-x-[220px] lg:-translate-y-[40px]
+            lg:translate-x-[220px] lg:-translate-y-[70px]
             ">⭐⭐⭐⭐⭐</span>          
         </motion.div>
      );

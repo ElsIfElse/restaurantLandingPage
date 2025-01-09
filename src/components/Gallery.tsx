@@ -14,7 +14,7 @@ const Gallery = () => {
     return ( 
         <motion.div ref={ref1} id="gallery" 
         // className="flex flex-col items-center pb-[100px] pt-8 px-[310px] w-full bg-[#AB886D] border-t-2 border-black"
-        className="flex flex-col justify-center items-center pb-[100px] pt-8 w-[100%] bg-[#AB886D] border-t border-black "
+        className="flex flex-col justify-center items-center pb-[100px] pt-8 w-[100%] bg-[#AB886D] border-t border-black lg:w-[100%] xl:px-[100px]"
 
 
           initial={{opacity:0}}
@@ -24,12 +24,12 @@ const Gallery = () => {
             <SmallHero text="- Gallery -"/>
             <Carousel 
             // className="rounded-md w-[1700px]"
-            className="rounded-md w-[100%]"
+            className="rounded-md w-[100%] xl:w-auto mt-5"
             >
                 <CarouselContent 
                 // className="lg:h-[400px] w-full"
                 className="w-full m-0
-                          lg:h-[400px]"
+                          lg:h-[400px] lg:w-[100%]"
                 >
 
                   <CarouselItem 

@@ -29,7 +29,7 @@ const MealCards:React.FC<MealCardProps> = ({dishName,dishDescription,dishPhoto,d
             <Card className="flex flex-col justify-center items-center w-[100%]
                             lg:h-[400px]">
                 <CardHeader>
-                    <CardTitle className="flex flex-col items-center justify-center text-2xl w-[100%]">
+                    <CardTitle className="flex flex-col items-start justify-center text-2xl w-[100%]">
                         {dishName}
                     </CardTitle>
                     <CardDescription className="flex flex-col items-center justify-center text-md w-[100%]">
@@ -38,7 +38,7 @@ const MealCards:React.FC<MealCardProps> = ({dishName,dishDescription,dishPhoto,d
                 </CardHeader>
                 <CardContent className="w-[400px] h-[300px] flex items-center justify-center overflow-hidden
                                         lg:w-[100%] lg:h-[200px]">
-                    <img className="rounded-md object-cover h-full w-full" src={dishPhoto}/>
+                    <img className="rounded-md object-cover h-full w-full xl:object-cover" src={dishPhoto}/>
                 </CardContent>
                 <CardFooter className="text-xl">
                     {dishPrice}
