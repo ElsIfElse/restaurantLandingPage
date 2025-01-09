@@ -25,58 +25,58 @@ const Gallery = () => {
             <Carousel 
             // className="rounded-md w-[1700px]"
             className="rounded-md w-[100%]"
-
             >
                 <CarouselContent 
-                // className="h-[400px] w-full"
-                className="w-full m-0"
+                // className="lg:h-[400px] w-full"
+                className="w-full m-0
+                          lg:h-[400px]"
                 >
 
                   <CarouselItem 
-                  // className=" basis-1/3"
-                  className="w-full m-0 px-2"                  
+                  // className=" lg:basis-1/3"
+                  className="w-full m-0 px-2 lg:lg:basis-1/3"                  
                   >
                     <img className="object-cover h-full w-full" src="https://www.foodandwine.com/thmb/ZJ1bVjGJuzucUJt9lF6QvjwI6Vc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wyoming-old-faitherful-inn-coziest-restaurants-FT-SS1117-fdd6e5db03ee4aff9cd815431ddff209.jpg" alt="" />
                     </CarouselItem>
  
                   <CarouselItem 
                   // className="basis-1/3"
-                  className="w-full px-2"
+                  className="w-full px-2 lg:lg:basis-1/3"
                   >
                     <img className="object-cover h-full w-full" src="https://www.foodandwine.com/thmb/PNBt8JtkI6NdBSghSOjThYBOTKA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/alabama-springhouse-coziest-restaurants-FT-SS1117-c44107e15dda4895ac20ce47c530feac.jpg" alt="" />
                     </CarouselItem>
 
                   <CarouselItem 
                   // className="basis-1/3"
-                  className="w-full px-2"
+                  className="w-full px-2 lg:basis-1/3"
                   >
                     <img className="object-cover h-full w-full" src="https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2023/10/beacon_restaurants-2.jpg" alt="" />
                     </CarouselItem>
 
                     <CarouselItem 
                     // className=" basis-1/3"
-                    className=" w-full px-2"
+                    className=" w-full px-2 lg:basis-1/3"
                     >
                     <img className="object-cover h-full w-full" src="https://assets.vogue.com/photos/6616a687e7d14f98f00a988b/4:3/w_3412,h_2559,c_limit/ezgif-2-9ee2230662.jpeg" alt="" />
                     </CarouselItem>
  
                   <CarouselItem 
                   // className="basis-1/3"
-                  className="w-full px-2"
+                  className="w-full px-2 lg:basis-1/3"
                   >
                     <img className="object-cover h-full w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuayUxlWgfvXuNBJYR9yhL8qaiJo4Tw5q-Qg&s" alt="" />
                     </CarouselItem>
 
                   <CarouselItem 
                   // className="basis-1/3"
-                  className="w-full px-2"
+                  className="w-full px-2 lg:basis-1/3"
                   >
                     <img className="object-cover h-full w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt-y74QKi-H-aOBULzvYXpBpwt0MCo7oeKQw&s" alt="" />
                     </CarouselItem>
 
                     <CarouselItem 
                     // className="basis-1/3"
-                    className="w-full px-2"
+                    className="w-full px-2 lg:basis-1/3"
 
                     >
                     <img className="object-cover h-full w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuayUxlWgfvXuNBJYR9yhL8qaiJo4Tw5q-Qg&s" alt="" />
@@ -84,7 +84,7 @@ const Gallery = () => {
 
                   <CarouselItem 
                   // className="basis-1/3"
-                  className="w-full px-2"
+                  className="w-full px-2 lg:basis-1/3"
                   >
                     <img className="object-cover h-full w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt-y74QKi-H-aOBULzvYXpBpwt0MCo7oeKQw&s" alt="" />
                     </CarouselItem> 

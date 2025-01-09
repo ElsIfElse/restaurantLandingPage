@@ -51,19 +51,22 @@ const MenuSection:React.FC<DishTypeProp> = ({
 }) => {
     return ( 
         <div 
-        /* className="flex flex-col items-center w-[1920px] mt-5" */
-            className="flex flex-col items-center justify-center w-[100%] mt-5"
+        /* className="lg:flex lg:flex-col lg:items-center lg:w-[1920px] lg:mt-5" */
+            className="flex flex-col items-center justify-center w-[100%] mt-5
+                        lg:flex lg:flex-col lg:items-center lg:w-full lg:mt-5"
 
         >
             <div 
-            /* className="flex flex-row justify-start w-full ml-7" */
-                className="flex flex-col items-center justify-center w-[100%]"
+            /* className="lg:flex lg:flex-row lg:justify-start lg:w-full lg:ml-7" */
+                className="flex flex-col items-center justify-center w-[100%]
+                            lg:flex lg:flex-row lg:justify-start lg:w-full lg:ml-7"
             >
                 <MiniHero text={typeName}/>
             </div>
             <div 
-            /* className="flex flex-row justify-between w-[1920px] mt-5" */
-                className="flex flex-col items-center justify-center w-[100%] mt-5"
+            /* className="lg:flex lg:flex-row lg:justify-between lg:w-[1920px] lg:mt-5" */
+                className="flex flex-col items-center justify-center w-[100%] mt-5
+                            lg:flex lg:flex-row lg:justify-between lg:w-full lg:mt-5"
             >
                 <MealCards dishName={item1Title} dishDescription={item1Description} dishPhoto={item1Photo} dishPrice={`-${item1Price}`}/>
                 <MealCards dishName={item2Title} dishDescription={item2Description} dishPhoto={item2Photo} dishPrice={`-${item2Price}`}/>

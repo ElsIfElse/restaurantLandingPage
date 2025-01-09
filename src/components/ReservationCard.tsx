@@ -12,7 +12,7 @@ const ReservationCard = () => {
         <Dialog> 
             <DialogTrigger 
             // className="bg-[#493628] text-white text-xl px-5 py-1 mt-5 hover:outline-none border-none hover:border-none hover:bg-opacity-95"
-                className="bg-[#493628] text-white text-md px-5 py-1 hover:outline-none border-none hover:border-none hover:bg-opacity-95"
+                className="bg-[#493628] text-white text-md lg:text-xl px-5 py-1 hover:outline-none border-none hover:border-none hover:bg-opacity-95"
             
             >Reserve</DialogTrigger>
             <DialogContent className="w-[100%]">
@@ -31,7 +31,9 @@ const ReservationCard = () => {
                     </div>
                     <Button
                     // className="bg-[#493628] text-xl w-[120px]"
-                        className="bg-[#493628] mt-2 text-md"
+                        className="
+                        bg-[#493628] mt-2 text-md
+                         lg:text-md lf:font-bold lg:mt-4"
                     >Reserve</Button>
                 </DialogDescription>
             </DialogContent>

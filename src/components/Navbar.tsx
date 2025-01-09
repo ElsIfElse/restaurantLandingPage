@@ -10,10 +10,16 @@ const Navbar = () => {
       animate={{opacity:1}}
       transition={{duration:0.4,delay:0.2}}
       /*className="sticky top-0 z-20 flex flex-col items-center w-screen bg-[#493628] border-2 border-black"*/
-      className="sticky top-0 z-20 flex flex-col items-center w-[100%] bg-[#493628] border-y border-black">
+      className="
+      sticky top-0 z-20 flex flex-col items-center w-[100%] bg-[#493628] border-y border-black
+      lg:w-screen lg:border-y-2
+      ">
         <Hr opa="100"/>
         <div /* className="flex-row flex px-5 py-3 justify-center w-[1920px] max-w-[1920px]" */
-            className="flex-row flex px-5 py-3 justify-center w-[100%] max-w-[100%]"
+            className="
+            flex-row flex px-5 py-3 justify-center w-[100%] max-w-[100%]
+            2xl:w-[1920px] 2xl:max-w-[1920px]
+            "
         >
           <div /* className="flex flex-row w-[1920px] justify-around text-white" */
             className="flex flex-row w-[100%] justify-around text-white"

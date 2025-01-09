@@ -29,21 +29,27 @@ const RestaurantsSection = () => {
         >
             <Carousel id="restaurants">
                 <CarouselContent>
-                  <CarouselItem>
+                  <CarouselItem className="w-full">
                   <Card className="bg-transparent border-none">
                         <CardHeader>
-                          <CardTitle className="text-xl bold">New York</CardTitle>
+                          <CardTitle className="
+                            text-xl bold
+                            lg:text-3xl"
+                            >New York</CardTitle>
                           <CardDescription>A vibrant New York restaurant featuring contemporary American cuisine with global flavors and a stylish atmosphere.</CardDescription>
                         </CardHeader>
-                        <CardContent className="flex flex-row justify-center w-full h-full">
+                        <CardContent className="flex flex-row justify-center w-full h-full ">
                           <img className="w-full h-full object-fill rounded-lg " src="https://orders.co/static/99a59eec0735fca313bf2b93349bd5d6/5715c/Italian-Restaurant-Design-Creating-an-Inviting-Ambiance.webp" alt="" />
                         </CardContent>
                     </Card>
                   </CarouselItem>
-                  <CarouselItem>
+                  <CarouselItem className="">
                     <Card className="bg-transparent border-none h-full w-full">
                         <CardHeader>
-                          <CardTitle className="text-xl bold">Oregon</CardTitle>
+                          <CardTitle className="
+                            text-xl bold
+                            lg:text-3xl"
+                            >Oregon</CardTitle>
                           <CardDescription>A cozy Oregon restaurant showcasing fresh, local ingredients with a creative twist on Pacific Northwest cuisine in a relaxed, rustic setting.</CardDescription>
                         </CardHeader>
                         <CardContent className="flex flex-row justify-center w-full h-full">
@@ -51,10 +57,13 @@ const RestaurantsSection = () => {
                         </CardContent>
                     </Card>
                   </CarouselItem>
-                  <CarouselItem>
+                  <CarouselItem className="">
                   <Card className="bg-transparent border-none h-full w-full">
                         <CardHeader>
-                          <CardTitle className="text-xl bold">Atlanta</CardTitle>
+                          <CardTitle className="
+                            text-xl bold
+                            lg:text-3xl"
+                            >Atlanta</CardTitle>
                           <CardDescription>A trendy Atlanta restaurant serving Southern-inspired dishes with a modern flair, set in a lively and welcoming atmosphere.</CardDescription>
                         </CardHeader>
                         <CardContent className="flex flex-row justify-center w-full h-full">

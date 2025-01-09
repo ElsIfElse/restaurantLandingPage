@@ -5,8 +5,9 @@ const Menu = () => {
     return ( 
         
         <div id="menu" 
-        /* className="flex flex-col items-center w-full mb-[100px]" */
-        className="flex flex-col justify-center items-center w-full"
+        /* className="lg:flex lg:flex-col lg:items-center lg:w-full lg:mb-[100px]" */
+        className="flex flex-col justify-center items-center w-full
+                    lg:flex lg:flex-col lg:items-center lg:w-full lg:mb-[100px]"
         
         >
             

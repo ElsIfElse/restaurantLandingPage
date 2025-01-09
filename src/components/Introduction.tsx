@@ -15,22 +15,26 @@ const Introduction = () => {
     return ( 
         <div id="mission" 
         /* className="flex flex-col items-center w-full bg-[#AB886D] pt-8 pb-[105px] mt-10 mb-10 border-2 border-black rounded-xl" */
-            className="flex flex-col items-center w-[100%] bg-[#AB886D] pt-1 pb-5 mt-10 mb-10 border-y border-black"
+            className="flex flex-col items-center w-[100%] bg-[#AB886D] pt-1 pb-5 mt-10 mb-10 border-y border-black
+                        lg:flex lg:flex-col lg:items-center lg:w-full lg:bg-[#AB886D] lg:pt-8 lg:pb-[105px] lg:mt-10 lg:mb-10 lg:border-2 lg:border-black lg:rounded-xl"
         >
             <SmallHero text="- Our Mission -" />
             <div 
-            /* className="flex flex-row w-full items-start justify-center pb-12 pt-12 " */
-            className="flex flex-col w-[100%] items-center justify-between pb-12 pt-12"
+            /* className="lg:flex lg:flex-row lg:w-full lg:items-start lg:justify-center lg:pb-12 lg:pt-12 " */
+            className="flex flex-col w-[100%] items-center justify-between pb-12 pt-12
+                        lg:flex lg:flex-row lg:w-full lg:items-start lg:justify-center lg:pb-12 lg:pt-[130px]"
             >
                 <div 
-                /* className="flex flex-row justify-start w-[600px] px-[50px] -translate-y-[100px]" */
-                className="flex flex-col justify-center w-[100%] py-4 px-8"
+                /* className="lg:flex lg:flex-row lg:justify-start lg:w-[600px] lg:px-[50px] lg:-translate-y-[100px]" */
+                className="flex flex-col justify-center w-[100%] py-4 px-8
+                            lg:flex lg:flex-row lg:justify-start lg:w-[600px] lg:px-[30px] lg:-translate-y-[100px]"
 
                 >
                     <motion.h2
                     ref={ref1}
                     /* className="text-3xl font-light tracking-wide" */
-                    className="text-xl font-light tracking-wide" 
+                    className="text-xl font-light tracking-wide
+                            lg:text-xl lg:font-light lg:tracking-wide" 
                     initial={{opacity:0,transform:'translateX(100px)'}}
                     animate={isInView1 ? {opacity:1,transform:'translateX(0)'} : {opacity:0,transform:'translateX(100px)'}}
                     transition={{duration:0.4,delay:0.2}}
@@ -40,14 +44,16 @@ const Introduction = () => {
                     </motion.h2>
                 </div>
                 <div 
-                /* className="flex flex-row justify-start w-[600px] px-[50px]" */
-                    className="flex flex-row justify-center w-[100%] py-4 px-8"
+                /* className="lg:flex lg:flex-row lg:justify-start lg:w-[600px] lg:px-[50px]" */
+                    className="flex flex-row justify-center w-[100%] py-4 px-8
+                                lg:flex lg:flex-row lg:justify-start lg:w-[600px] lg:px-[30px]"
                 
                 >
                     <motion.h2
                     ref={ref2}
-                    /* className="text-3xl font-light tracking-wide" */
-                    className="text-xl font-light tracking-wide" 
+                    /* className="lg:text-3xl lg:font-light lg:tracking-wide" */
+                    className="text-xl font-light tracking-wide
+                            lg:text-xl lg:font-light lg:tracking-wide" 
                     initial={{opacity:0,transform:'translateX(100px)'}}
                     animate={isInView2 ? {opacity:1,transform:'translateX(0)'} : {opacity:0,transform:'translateX(100px)'}}
                     transition={{duration:0.4,delay:0.2}}
@@ -57,14 +63,16 @@ const Introduction = () => {
                     </motion.h2>
                 </div>
                 <div
-                /* className="flex flex-row justify-start w-[600px] px-[50px] translate-y-[100px]" */
-                    className="flex flex-row justify-center w-[100%] py-4 px-8"
+                /* className="lg:flex lg:flex-row lg:justify-start lg:w-[600px] lg:px-[50px] lg:translate-y-[100px]" */
+                    className="flex flex-row justify-center w-[100%] py-4 px-8
+                                lg:flex lg:flex-row lg:justify-start lg:w-[600px] lg:px-[30px] lg:translate-y-[100px]"
                 
                 >
                     <motion.h2
                     ref={ref3}
-                    /* className="text-3xl font-light tracking-wide" */
-                    className="text-xl font-light tracking-wide" 
+                    /* className="lg:text-3xl lg:font-light lg:tracking-wide" */
+                    className="text-xl font-light tracking-wide
+                                lg:text-xl lg:font-light lg:tracking-wide" 
                     initial={{opacity:0,transform:'translateX(100px)'}}
                     animate={isInView3 ? {opacity:1,transform:'translateX(0)'} : {opacity:0,transform:'translateX(100px)'}}
                     transition={{duration:0.4,delay:0.4}}
