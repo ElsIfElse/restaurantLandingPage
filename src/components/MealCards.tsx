@@ -24,10 +24,11 @@ const MealCards:React.FC<MealCardProps> = ({dishName,dishDescription,dishPhoto,d
         transition={{duration:0.4,delay:0.2}}
         /* className="lg:flex-1 lg:flex lg:flex-col lg:items-center lg:justify-center lg:mx-2 lg:shadow-md" */
             className="flex-1 flex flex-col items-center justify-center mx-2 shadow-md w-[100%] mb-5
-                        lg:flex-1 lg:flex lg:flex-col lg:items-center lg:justify-center lg:mx-2 lg:shadow-md"
+                        lg:flex-1 lg:flex lg:flex-col lg:items-center lg:justify-center lg:mx-2 lg:shadow-md h-[400px] 2xl:h-[488px]"
         >
             <Card className="flex flex-col justify-center items-center w-[100%]
-                            lg:h-[400px]">
+                            lg:h-[400px]
+                            2xl:w-auto 2xl:h-auto">
                 <CardHeader>
                     <CardTitle className="flex flex-col items-start justify-center text-2xl w-[100%]">
                         {dishName}
@@ -37,8 +38,9 @@ const MealCards:React.FC<MealCardProps> = ({dishName,dishDescription,dishPhoto,d
                     </CardDescription>
                 </CardHeader>
                 <CardContent className="w-[400px] h-[300px] flex items-center justify-center overflow-hidden
-                                        lg:w-[100%] lg:h-[200px]">
-                    <img className="rounded-md object-cover h-full w-full xl:object-cover" src={dishPhoto}/>
+                                        lg:w-[100%] lg:h-[200px]
+                                        2xl:w-[400px] 2xl:h-[300px]">
+                    <img className="rounded-md object-cover h-full w-full" src={dishPhoto}/>
                 </CardContent>
                 <CardFooter className="text-xl">
                     {dishPrice}

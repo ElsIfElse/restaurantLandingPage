@@ -22,27 +22,12 @@ const Navbar = () => {
             "
         >
           <div /* className="flex flex-row w-[1920px] justify-around text-white" */
-            className="flex flex-row w-[100%] justify-around text-white"
+            className="flex flex-row w-[100%] justify-around text-white max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1920px]"
           >
-            {
-              screenX < 768 ? (<Button className="hover:outline-none hover:border-none text-sm tracking-tight hover:bg-transparent" variant={'ghost'} size={"sm"}> <a className="hover:text-stone-300" href="#restaurants">Restaurants</a> </Button>)
-              : (<Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300" href="#restaurants">Restaurants</a> </Button>)
-            }
-            {
-              screenX < 768 ? (<Button className="hover:outline-none hover:border-none text-sm tracking-tight hover:bg-transparent" variant={'ghost'} size={"sm"}> <a className="hover:text-stone-300" href="#mission">Our Mission</a> </Button>)
-              :
-              (<Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300" href="#mission">Our Mission</a> </Button>)
-            }
-            {
-              screenX < 768 ? (<Button className="hover:outline-none hover:border-none text-sm tracking-tight hover:bg-transparent" variant={'ghost'} size={"sm"}> <a className="hover:text-stone-300" href="#menu">Menu</a> </Button>)
-              :
-              (<Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300" href="#menu">Menu</a> </Button>)
-            }
-            {
-              screenX < 768 ? (<Button className="hover:outline-none hover:border-none text-sm tracking-tight hover:bg-transparent" variant={'ghost'} size={"sm"}> <a className="hover:text-stone-300" href="#gallery">Gallery</a> </Button>)
-              :
-              (<Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300" href="#gallery">Gallery</a> </Button>)
-            }
+            <Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300 text-sm lg:text-xl" href="#restaurants">Restaurants</a> </Button>
+            <Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300 text-sm lg:text-xl" href="#mission">Our Mission</a> </Button>
+            <Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300 text-sm lg:text-xl" href="#menu">Menu</a> </Button>
+            <Button className="hover:outline-none hover:border-none text-xl tracking-wide hover:bg-transparent" variant={'ghost'}> <a className="hover:text-stone-300 text-sm lg:text-xl" href="#gallery">Gallery</a> </Button>
           </div>
         </div>
         <Hr opa="100"/>

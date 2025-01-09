@@ -17,7 +17,8 @@ const Introduction = () => {
         /* className="flex flex-col items-center w-full bg-[#AB886D] pt-8 pb-[105px] mt-10 mb-10 border-2 border-black rounded-xl" */
             className="flex flex-col items-center w-[100%] bg-[#AB886D] pt-1 pb-5 mt-10 mb-10 border-y border-black
                         lg:flex lg:flex-col lg:items-center lg:w-full lg:bg-[#AB886D] lg:pt-8 lg:pb-[105px] lg:mt-10 lg:mb-10 lg:border-2 lg:border-black lg:rounded-xl
-                        xl:flex xl:flex-col xl:items-center xl:w-full xl:bg-[#AB886D] xl:pt-6 xl:pb-[130px] xl:mt-10 xl:mb-10 xl:border-y-2 xl:border-x-transparent xl:border-black xl:rounded-none"
+                        xl:flex xl:flex-col xl:items-center xl:w-full xl:bg-[#AB886D] xl:pt-6 xl:pb-[130px] xl:mt-10 xl:mb-10 xl:border-y-2 xl:border-x-transparent xl:border-black xl:rounded-none
+                        2xl:border-y-2 2xl:border-x-transparent 2xl:border-black 2xl:pb-[130px] 2xl:w-"
         >
             <SmallHero text="- Our Mission -" />
             <div 
@@ -37,7 +38,8 @@ const Introduction = () => {
                     /* className="text-3xl font-light tracking-wide" */
                     className="text-xl font-light tracking-wide
                             lg:text-xl lg:font-light lg:tracking-wide
-                            xl:text-xl xl:font-light xl:tracking-wide" 
+                            xl:text-xl xl:font-light xl:tracking-wide
+                            2xl:text-2xl" 
                     initial={{opacity:0,transform:'translateX(100px)'}}
                     animate={isInView1 ? {opacity:1,transform:'translateX(0)'} : {opacity:0,transform:'translateX(100px)'}}
                     transition={{duration:0.4,delay:0.2}}
@@ -56,7 +58,8 @@ const Introduction = () => {
                     ref={ref2}
                     /* className="lg:text-3xl lg:font-light lg:tracking-wide" */
                     className="text-xl font-light tracking-wide
-                            lg:text-xl lg:font-light lg:tracking-wide" 
+                            lg:text-xl lg:font-light lg:tracking-wide
+                            2xl:text-2xl" 
                     initial={{opacity:0,transform:'translateX(100px)'}}
                     animate={isInView2 ? {opacity:1,transform:'translateX(0)'} : {opacity:0,transform:'translateX(100px)'}}
                     transition={{duration:0.4,delay:0.2}}
@@ -75,7 +78,8 @@ const Introduction = () => {
                     ref={ref3}
                     /* className="lg:text-3xl lg:font-light lg:tracking-wide" */
                     className="text-xl font-light tracking-wide
-                                lg:text-xl lg:font-light lg:tracking-wide" 
+                                lg:text-xl lg:font-light lg:tracking-wide
+                                2xl:text-2xl" 
                     initial={{opacity:0,transform:'translateX(100px)'}}
                     animate={isInView3 ? {opacity:1,transform:'translateX(0)'} : {opacity:0,transform:'translateX(100px)'}}
                     transition={{duration:0.4,delay:0.4}}

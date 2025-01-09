@@ -54,7 +54,8 @@ const MenuSection:React.FC<DishTypeProp> = ({
         /* className="lg:flex lg:flex-col lg:items-center lg:w-[1920px] lg:mt-5" */
             className="flex flex-col items-center justify-center w-[100%] mt-5
                         lg:flex lg:flex-col lg:items-center lg:w-full lg:mt-5
-                        xl:flex xl:flex-col xl:items-center xl:w-full xl:mt-12 xl:px-5"
+                        xl:flex xl:flex-col xl:items-center xl:w-full xl:mt-12 xl:px-5
+                        2xl:max-w-[1920px]"
 
         >
             <div 

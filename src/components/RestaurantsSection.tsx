@@ -25,7 +25,8 @@ const RestaurantsSection = () => {
         animate={{opacity:1}}
         transition={{duration:0.4,delay:0.2}}
         className="w-[100%]
-                    lg:w-auto xl:w-[80%] 2xl:w-auto ">
+                    lg:w-auto xl:w-[80%] 2xl:w-auto 2xl:max-w-[1920px]
+                    ">
                 
             <Carousel id="restaurants" className="lg:w-auto">
                 <CarouselContent className="">
